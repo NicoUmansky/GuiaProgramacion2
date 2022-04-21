@@ -13,8 +13,11 @@ public class Ejercicio2 : MonoBehaviour
         {
             if (n1 > n2)
             {
-                Debug.Log("El primer numero es más grande que el segundo");
-
+                while (n2 <= n1)
+                {
+                    Debug.Log(n2);
+                    n2++;
+                }
             }
             else
             {
